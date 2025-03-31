@@ -4,8 +4,8 @@ const Skills = () => {
   const frontendSkills = [
     { name: 'React', level: 90 },
     { name: 'TypeScript', level: 85 },
-    { name: 'Next.js', level: 80 },
-    { name: 'Tailwind CSS', level: 95 },
+    { name: 'Next.js', level: 90 },
+    { name: 'Laravel', level: 85},
   ]
   
   const backendSkills = [

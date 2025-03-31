@@ -78,7 +78,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-gray-900 mb-1">Phone</h3>
-                  <p className="text-gray-600">+1 (555) 123-4567</p>
+                  <p className="text-gray-600">+380 997 230 654</p>
                   <a href="tel:+15551234567" className="text-indigo-600 hover:underline mt-1 inline-block">
                     Give me a call
                   </a>
@@ -93,7 +93,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-gray-900 mb-1">Location</h3>
-                  <p className="text-gray-600">San Francisco, California</p>
+                  <p className="text-gray-600">Region Poltava, city Hadiach, Ukraine</p>
                   <p className="text-gray-600 mt-1">Available for remote work worldwide</p>
                 </div>
               </div>
@@ -124,7 +124,7 @@ const Contact = () => {
                       onChange={handleChange}
                       required
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 outline-none transition-colors"
-                      placeholder="John Doe"
+                      placeholder="Anna Myronenko"
                     />
                   </div>
                   
