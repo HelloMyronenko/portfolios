@@ -16,27 +16,27 @@ const Hero = () => {
             <p className="text-lg text-gray-600 max-w-lg">
               I craft clean, user-friendly applications with modern technologies to solve real-world problems.
             </p>
-            
+
             <div className="flex flex-wrap gap-4 pt-2">
-              <a 
-                href="#contact" 
+              <a
+                href="#contact"
                 className="px-6 py-3 bg-indigo-600 text-white rounded-lg font-medium hover:bg-indigo-700 transition-colors shadow-md hover:shadow-lg"
               >
                 Get in touch
               </a>
-              <a 
-                href="#projects" 
+              <a
+                href="#projects"
                 className="px-6 py-3 bg-white text-indigo-600 border border-indigo-600 rounded-lg font-medium hover:bg-indigo-50 transition-colors"
               >
                 View my work
               </a>
             </div>
-            
+
             <div className="flex items-center gap-4 pt-4">
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-indigo-600 transition-colors">
+              <a href="https://github.com/HelloMyronenko/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-indigo-600 transition-colors">
                 <Github size={20} />
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-indigo-600 transition-colors">
+              <a href="https://www.linkedin.com/in/anna-myronenko-061500335/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-indigo-600 transition-colors">
                 <Linkedin size={20} />
               </a>
               <a href="mailto:myronenko.anna11@gmail.com" className="text-gray-600 hover:text-indigo-600 transition-colors">
@@ -44,13 +44,13 @@ const Hero = () => {
               </a>
             </div>
           </div>
-          
+
           <div className="md:w-1/2 relative">
             <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-8 border-white shadow-xl mx-auto">
-              <img 
-                src="/profile-photo.jpg" 
-                alt="Professional Portrait" 
-                className="w-full h-full object-cover"
+              <img
+                src="/profile-photo.png"
+                alt="Professional Portrait"
+                className="w-full object-cover"
               />
             </div>
             <div className="absolute -bottom-4 -right-4 md:bottom-0 md:right-12 bg-white p-3 rounded-lg shadow-lg">
@@ -63,7 +63,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        
+
         <div className="flex justify-center mt-16">
           <a href="#about" className="animate-bounce p-2 bg-white rounded-full shadow-md">
             <ArrowDown size={24} className="text-indigo-600" />
